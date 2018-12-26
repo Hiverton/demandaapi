@@ -1,0 +1,33 @@
+{
+  "name": "demandaapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/loader.js",
+  "scripts": {
+    "dev": "nodemon",
+    "production": "pm2 start src/loader.js --name demanda-api"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hiverton/demandaapi.git"
+  },
+  "keywords": [
+    "demanda"
+  ],
+  "author": "Hiverton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hiverton/demandaapi/issues"
+  },
+  "homepage": "https://github.com/Hiverton/demandaapi#readme",
+  "dependencies": {
+    "body-parser": "1.15.2",
+    "express": "4.14.0",
+    "mongoose": "4.7.0",
+    "node-restful": "0.2.5",
+    "pm2": "2.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "1.11.0"
+  }
+}
